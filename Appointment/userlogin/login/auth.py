@@ -7,13 +7,13 @@ import re
 from flask import session
 
 
-
 auth = Blueprint('auth', __name__)
 
 
 @auth.route('/cust')
 def cust():
     return render_template('cust_homepage.html')
+
 
 @auth.route('/admin')
 def adm():
@@ -28,15 +28,15 @@ def login():
 
         admin = Admin.query.filter_by(email=email)
         if admin:
-            if email=='admin@hospital.com' and password=='password':
+            if email == 'admin@hospital.com' and password == 'password':
                 return redirect(url_for('auth.adm'))
-     
+
         user = User.query.filter_by(email=email).first()
         if user:
             if check_password_hash(user.password, password):
                 flash('Logged in successfully!', category='success')
                 login_user(user, remember=True)
-                return redirect(url_for('auth.cust_homepage'))
+                return redirect(url_for('auth.cust'))
             else:
                 flash('Incorrect password, try again.', category='error')
         else:
