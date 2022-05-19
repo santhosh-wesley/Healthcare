@@ -1,11 +1,9 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 from os import path
 from flask_login import LoginManager
 from flask import session
-from .models import Admin, User
+from .models import Admin, User, db
 
-db = SQLAlchemy()
 DB_NAME = "database.db"
 
 
