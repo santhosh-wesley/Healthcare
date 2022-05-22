@@ -1,0 +1,13 @@
+bin/
+__pycache__/
+.idea/
+.vscode/
+venv/
+*.pyc
+.DS_Store
+.mypy_cache
+static/*
+
+staticfiles/
+media/
+.env
