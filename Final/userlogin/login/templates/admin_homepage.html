@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title> XYZ Hospital </title>
+
+	<link href="../static/css/stylesheet2.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="topnav">
+  	<p  style="font-size:40px;font-family:forte;"> <font color="#D8EBEF"> XYZ  </font><font color="#000"> Hospital</font> </p>
+      <a href="{{ url_for('auth.logout') }}">LOGOUT</a>
+      <a href="{{ url_for('auth.about') }}">ABOUT US</a>
+      <a href="{{ url_for('auth.doctors') }}">DOCTORS</a>
+      <a href="{{ url_for('auth.service') }}">SERVICE</a>
+      <a href="{{ url_for('auth.home') }}">HOME</a>
+  </div>
+  <br> <br>
+  <br><br><br>
+  <div class="adm-table">
+    <table class = "app_table">
+        <tr class="tr">
+            <td class="td">Patient Type</td>
+            <td class="td">Name</td>
+            <td class="td">Phone Number</td>
+            <td class="td">Email</td>
+            <td class="td">Consultation Medium</td>    
+            <td class="td">Specialist</td>
+            <td class="td">Practitioner</td>
+            <td class="td">Date</td>
+            <td class="td">Time</td>
+            <td class="td">Action</td>
+        </tr>
+  {% for row in my_data %}
+  
+                      <tr>
+                          <td>{{row.patient}}</td>
+                          <td>{{row.name}}</td>
+                          <td>{{row.phone}}</td>
+                          <td>{{row.email}}</td>
+                          <td>{{row.consultmed}}</td>
+                          <td>{{row.specialist}}</td>
+                          <td>{{row.practitioner}}</td>
+                          <td>{{row.date}}</td>
+                          <td>{{row.time}}</td>
+                          <td>
+                          <a href="/delete/{{row.id}}" class="btn btn-danger btn-xs" onclick="return confirm('Are You sure To Delete ?')">Delete</a>
+                          </td>
+                      </tr>
+                      
+  {% endfor %}
+    </table>
+  </div>
+  <center></center>

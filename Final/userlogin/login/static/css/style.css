@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.topnav {
+    background-color:#2b96fa;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+}
+
+.topnav a {
+  float: right;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+
+p {
+  margin: 0px;
+  display:inline-block;
+}
+
+body {
+  margin: 0px;
+}
+
+.topnav a:hover {
+	background-color: #4fa8fa;
+	color: rgb(255, 255, 255);
+  }
+
+*{
+	margin:auto;
+	padding:auto;
+}
+
+
+
+
+.middle{
+	width:100%;
+	border-bottom:2px solid #f0f0f0;
+}
+.middle div{
+	width:1200px;
+	height:400px;
+	font-family:calibri;
+}
+
+.middle div p{
+	width:1000px;
+	font-weight:bold;
+	height:300px;
+	color:#fff;
+	opacity:0.2;
+	font-size:50px;
+	background-color:#000;
+}
+
+
+
+input[type="text"]{
+	padding:12px;
+	width:250px;
+}
+select{
+	padding:12px;
+	width:250px;
+}
+textarea{
+	padding:50px;
+	width:550px;
+}
+
+
+
+
+.pp{
+  height: 150px;
+}
+
+.doc-container{
+	padding: 100;
+}
+
+.d1 {
+  display: inline-block;
+  width: 49%;
+}
+.d2 {
+
+  display: inline-block;
+  width: 50%;
+}
+
+.itd {
+  padding-right: 125px;
+}
+
+.prp {
+  height: 100px;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.options {
+	width: 40vw;
+    height: 10vh;
+	position: relative;
+	padding: 20;
+	top: 60;
+	left: 20;
+	
+}
+
+
+
+.apt-btn{
+	background-color: #2b96fa;
+	border-radius: 0.2em;
+	float: right;
+	padding: 20;
+	margin: 20;
+}
+
+.apt-btn:hover{
+	background-color: #57abfa;
+}
+
+
+.apt-btn a{
+	text-decoration: none;
+	color: #e6e3e3;
+}
+
+.apt-btn a:hover{
+	color: rgb(255, 255, 255);
+}
+
+.home-pg-img{
+	position: relative;
+	top: 100;
+	left: 25;
+	z-index: -1;
+
+}
+
+.view-head{
+	width: 40vw;
+    height: 10vh;
+	position: relative;
+	padding: 20;
+	top: 60;
+	left: 30;
+	font-size: 50;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.app_table{
+	width: 95vw;
+	background-color: #fff;
+	padding: 10;
+}
+
+.app_table table{
+	border: none;
+	width: 90vw;
+}
+
+.app_table tr:nth-child(even){
+	background-color: #eeecec;
+}
+.app_table th, td{
+	text-align: center;
+	color: rgb(92, 90, 90);
+	
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 7;
+}
+
+.app_table button{
+	background-color: rgb(199, 2, 2);
+	color: #f0ecec;
+	height: 18px;
+	width: 18px;
+	font-size: 10px;
+	border: none;
+	border-radius: 15px;
+	box-shadow: rgb(97, 97, 97);
+}
+
+.app_table button:hover{
+	cursor: pointer;
+	background-color: rgb(211, 93, 93);
+
+}
+
+
+

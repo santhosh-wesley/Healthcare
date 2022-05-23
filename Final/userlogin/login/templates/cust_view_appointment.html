@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title> Appointments </title>
+
+	<link href="../static/css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="topnav">
+  	<p  style="font-size:40px;font-family:forte;"> <font color="#D8EBEF"> XYZ  </font><font color="#000"> Hospital</font> </p>
+      <a href="{{ url_for('auth.login') }}">LOGOUT</a>
+      <a href="{{ url_for('auth.about') }}">ABOUT US</a>
+      <a href="{{ url_for('auth.doctors') }}">DOCTORS</a>
+      <a href="{{ url_for('auth.service') }}">SERVICE</a>
+      <a href="{{ url_for('auth.home') }}">HOME</a>
+  </div>
+  <br>
+  <div class="view-head">
+   Appointment history 
+  </div>
+  <br><br><br>
+  <div class = "app_table"><table >
+    <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Consultation Medium</th>
+        <th>Patient Type</th>
+        <th>Specialist</th>
+        <th>Practitioner</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Delete</th>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>Phone Number</td>
+        <td>Email</td>
+        <td>Consultation Medium</td>
+        <td>Patient Type</td>
+        <td>Specialist</td>
+        <td>Practitioner</td>
+        <td>Date</td>
+        <td>Time</td>
+        <td><button class="dlt-btn" type="button" name="delete" value="delete">X</button></td>
+    </tr>   
+    <tr>
+        <td>Name</td>
+        <td>Phone Number</td>
+        <td>Email</td>
+        <td>Consultation Medium</td>
+        <td>Patient Type</td>
+        <td>Specialist</td>
+        <td>Practitioner</td>
+        <td>Date</td>
+        <td>Time</td>
+        <td><button class="dlt-btn" type="button" name="delete" value="delete">X</button></td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>Phone Number</td>
+        <td>Email</td>
+        <td>Consultation Medium</td>
+        <td>Patient Type</td>
+        <td>Specialist</td>
+        <td>Practitioner</td>
+        <td>Date</td>
+        <td>Time</td>
+        <td><button class="dlt-btn" type="button" name="delete" value="delete">X</button></td>
+    </tr>
+  </table></div>
+  

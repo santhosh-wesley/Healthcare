@@ -1,0 +1,272 @@
+.lgn-bdy{
+  background-image: url("../images/img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.topnav {
+  background-color:#2b96fa; 
+width: 100%;
+top: 0;
+z-index: 999;
+}
+
+.topnav a {
+float: right;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+}
+
+.topnav a:hover {
+	background-color: #4fa8fa;
+	color: rgb(255, 255, 255);
+  }
+
+.login-container {
+  width: 50vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.login-container legend{
+  margin-left: calc(50% - 35px - 8px);
+}
+
+
+.login-container form {
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 3px;
+  font-size: 1em;
+  color: #696969;
+  background: none;
+  width: 90%;
+  padding: 0.8em 1em;
+  outline: none;
+  margin: 0.5em;
+}
+
+
+
+
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+  border: 1px solid rgb(68, 68, 68);
+  font-size: 1em;
+  color: #696969;
+  background: none;
+  padding: 0.8em 1em;
+  outline: none;
+  margin: 0.5em;
+}
+
+.login-container button[type="submit"],
+.reg-container button {
+  padding: 0.6em 1em;
+  color: #fff;
+  font-size: 1.1em;
+  background: #2b96fa;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  outline: none;
+  border: none;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.login-cta {
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+
+.login-cta a {
+  color: rgb(12, 12, 12);
+}
+
+.login-cta .empty-span {
+  flex: 1
+}
+
+.login-cta button {
+  flex: 2
+}
+
+.register-link {
+  padding: 0.5em;
+  text-align: right;
+  color: black;
+}
+
+.register-link a {
+  color: #2b96fa
+}
+
+
+.hr {
+  border-style: dotted none none;
+  border-color: grey;
+  height: 1px;
+  width: 80%;
+}
+
+
+
+.right_div {
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+.right_div form{
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.cp {
+  color: #187B86;
+  font-family:sans-serif;
+}
+
+.cp1 {
+  color: #D8EBEF;
+  font-family: sans-serif;
+}
+
+.li {
+  font-family: sans-serif;
+  padding-top: 85px;
+  text-align: center;
+  right: 30px;
+
+}
+
+.lir {
+  margin: 0px;
+  font-family: sans-serif;
+  padding-top: 85px;
+  text-align: center;
+}
+
+.mip {
+  position: absolute;
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 3px;
+  font-size: 1em;
+  color: #696969;
+  background: none;
+  width: 50vw;
+  padding: 0.8em 1em;
+  outline: none;
+  margin: 0.5em;
+}
+
+.lmip {
+  position: absolute;
+  font-size: 20px;
+  
+}
+
+
+.submit {
+  padding: 0.6em 1em;
+  color: #fff;
+  font-size: 1.1em;
+  background: #2b96fa;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  outline: none;
+  border: none;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.par {
+    position: absolute;
+    left: 48%;
+    font-size: 15px;
+    font-style: bold;
+}
+
+.par1 {
+    position: absolute;
+    left: 48%;
+    font-size: 20px;
+    font-style: bold;
+}
+.lt {
+  color: #34BAD4;
+}
+
+.ltp {
+  color: white;
+}
+
+.submit1 {
+  position: absolute;
+  right: 50%;
+  align-items: center;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  text-align: center;
+  padding: 10px 21px;
+  color: white;
+
+}
+
+.wc{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.hwc {
+  margin: 80px;
+  text-align: center;
+  color: white;
+}
+
+.hwc1 {
+  margin: 80px;
+  text-align: center;
+  color: white;
+}
+
+
+p {
+  margin: 0px;
+  display:inline-block;
+}

@@ -1,0 +1,75 @@
+
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Register</title>
+        <link rel="stylesheet" href="../static/css/style1.css">
+        <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"/>
+      </head>
+      <body class="lgn-bdy">
+        <div style="width:100%;" class="topnav">
+          <p  style="font-size:40px;font-family:forte;"> <font color="#D8EBEF"> XYZ  </font><font color="#000"> Hospital</font> </p>
+    
+          <a href="{{ url_for('auth.login') }}">LOGIN</a>
+          <a href="{{ url_for('auth.about') }}">ABOUT US</a>
+          <a href="{{ url_for('auth.doctors') }}">DOCTORS</a>
+          <a href="{{ url_for('auth.service') }}">SERVICE</a>
+          <a href="{{ url_for('auth.home') }}">HOME</a>
+    
+    
+        </div>
+        <div style="width:100%;" class=""><br>{% with messages = get_flashed_messages(with_categories=true) %} {% if
+          messages %} {% for category, message in messages %} {% if category ==
+          'error' %}
+          <div class="alert alert-danger alter-dismissable fade show" role="alert">
+            {{ message }}
+            <button type="button" class="close" data-dismiss="alert">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          {% else %}
+          <div class="alert alert-success alter-dismissable fade show" role="alert">
+            {{ message }}
+            <button type="button" class="close" data-dismiss="alert">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          {% endif %} {% endfor %} {% endif %} {% endwith %} <br></div>
+    
+        <div class="right_div">
+          
+            <form  onsubmit="sign_up()" name="myform" class="form"  method="post">
+              <fieldset>
+                <legend>Create a new account</legend>
+                <label class="lmip"><b>Name</b></label><br><br>
+              <input class="mip" type="text" name="name" value="" placeholder="Name">
+              <br><br><br><br><br>
+              <label class="lmip"> <b>Mail-id</b> </label> <br><br>
+              <input class="mip" type="email" name="email" value="" placeholder="Mail-id">
+              <br><br><br><br><br>
+              <label class="lmip"><b>Password</b></label><br><br>
+              <input class="mip" type="password" name="password1" value="" placeholder="Password">
+              <br><br><br><br><br>
+              <label class="lmip"> <b>Confirm Password</b> </label> <br><br>
+              <input class="mip" type="password" name="password2" value="" placeholder="Password">
+              <br><br><br><br><br>
+              <input class="submit" type="submit" name="" value="Signup">
+            </fieldset>
+          </form>
+          
+          
+    
+      </body>
+    </html>
+
+    
