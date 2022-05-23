@@ -82,8 +82,11 @@ textarea{
   height: 150px;
 }
 
-.d1 {
+.doc-container{
+	padding: 100;
+}
 
+.d1 {
   display: inline-block;
   width: 49%;
 }
