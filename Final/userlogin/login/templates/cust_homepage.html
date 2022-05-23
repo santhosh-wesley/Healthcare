@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title> Patient </title>
+
+	<link href="../static/css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="topnav">
+  	<p  style="font-size:40px;font-family:forte;"> <font color="#D8EBEF"> XYZ  </font><font color="#000"> Hospital</font> </p>
+		<a href="{{ url_for('auth.logout') }}">LOGOUT</a>
+    <a href="{{ url_for('auth.about') }}">ABOUT US</a>
+    <a href="{{ url_for('auth.doctors') }}">DOCTORS</a>
+    <a href="{{ url_for('auth.service') }}">SERVICE</a>
+    <a href="{{ url_for('auth.home') }}">HOME</a>
+  </div>
+  <div class="options">
+      <div class="apt-btn"><a href="{{ url_for('auth.BookAppoint') }}">Book A New Appointment </a></div>
+      <div class="apt-btn"> <a href="{{ url_for('auth.cust_view') }}">View appointment history</a></div>
+  </div>
+  <div class="home-pg-img" ><img  src="../static/images/docp.webp" alt=""></div>
+  <center></center>
