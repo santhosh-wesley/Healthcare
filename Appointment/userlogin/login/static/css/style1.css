@@ -1,0 +1,178 @@
+div {
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.left_div {
+  position: absolute;
+  background-color: #0f064e;
+  height: 100% ;
+  width: 40%;
+  vertical-align: baseline;
+}
+
+.limg {
+  height: 250px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.hr {
+  border-style: dotted none none;
+  border-color: grey;
+  height: 1px;
+  width: 80%;
+}
+
+
+.leftidiv {
+  padding: 25px;
+
+}
+
+.right_div {
+  background-color: #D8EBEF;
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  right: 0px;
+}
+
+.cp {
+  color: #187B86;
+  font-family:sans-serif;
+}
+
+.cp1 {
+  color: #D8EBEF;
+  font-family: sans-serif;
+}
+
+.li {
+  font-family: sans-serif;
+  padding-top: 85px;
+  text-align: center;
+  right: 30px;
+
+}
+
+.lir {
+  margin: 0px;
+  font-family: sans-serif;
+  padding-top: 85px;
+  text-align: center;
+}
+
+.mip {
+  position: absolute;
+  width: 70%;
+  left: 120px;
+  border: 2px solid;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.lmip {
+  position: absolute;
+  left: 120px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+
+.submit {
+  position: absolute;
+  right: 45%;
+  align-items: center;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  text-align: center;
+  padding: 10px 21px;
+  color: white;
+}
+
+.par {
+    position: absolute;
+    left: 48%;
+    font-size: 15px;
+    font-style: bold;
+}
+
+.par1 {
+    position: absolute;
+    left: 48%;
+    font-size: 20px;
+    font-style: bold;
+}
+.lt {
+  color: #34BAD4;
+}
+
+.ltp {
+  color: white;
+}
+
+.submit1 {
+  position: absolute;
+  right: 50%;
+  align-items: center;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  text-align: center;
+  padding: 10px 21px;
+  color: white;
+
+}
+
+.wc{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.hwc {
+  margin: 80px;
+  text-align: center;
+  color: white;
+}
+
+.hwc1 {
+  margin: 80px;
+  text-align: center;
+  color: white;
+}
+
+.topnav {
+    background-color:#2FA5EB;
+}
+
+.topnav a {
+  float: right;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+p {
+  margin: 0px;
+  display:inline-block;
+}
